@@ -15,5 +15,5 @@
 ## 📋 기술 스택
 📙 Front End 📙
 * HTML
-* CSS
+* <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white" />
 * JavaScript
