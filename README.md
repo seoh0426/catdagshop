@@ -2,11 +2,15 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=CATDOG%20COMMUNITY&desc=CATDOG%20Shoppingmall%20page&fontSize=60&descSiza=40&fontAlignY=30&descAlignY=50)
 
 ## :speech_balloon: 프로젝트 소개
-🌈 반려동물 커뮤니티의 쇼핑몰
+🐱 반려동물 커뮤니티의 쇼핑몰 🐶
 
 📎 개발 기간 : 2023.02.06 ~ 2023.04.06 (약 8주)
 
 📎 참여 인원 : 2명
+
+📎 담당 구현 파트
+   ✏️ 
+
 
 ## 🛠️ 개발환경
 * <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat&logo=EclipseIDE&logoColor=white" />
@@ -28,3 +32,11 @@
 * <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
 * <img src="https://img.shields.io/badge/JSON-30B980?style=flat&logo=json&logoColor=white"/>
 
+📗 사용기술 📗
+* Spring MVC pattern
+* CRUD
+* JSP
+* 카카오 주소 API
+* Ajax
+
+## :
