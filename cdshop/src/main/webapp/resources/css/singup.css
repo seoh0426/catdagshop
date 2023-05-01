@@ -1,0 +1,167 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+body
+{
+    background-color: #fffef1;
+}
+.container
+{
+    width: 40%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* 회원가입 박스 */
+.hr1
+{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.input_box p
+{
+    height: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.email
+{
+    margin-left: 70px;
+    height: 30px;
+    vertical-align: middle;
+}
+.email_check
+{
+    margin-left: 5px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #e4e4e6;
+    cursor:pointer;
+}
+.pw
+{
+    margin-left: 54px;
+    height: 30px;
+}
+.pw2
+{
+    margin-left: 22px;
+    height: 30px;
+}
+.name
+{
+    height: 30px;
+    margin-left: 70px;
+}
+.name_check
+{
+    margin-left: 5px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #e4e4e6;
+    cursor:pointer;
+}
+.num1
+{
+    margin-left: 54px;
+    margin-right: 10px;
+    height: 30px;
+    text-align: center;    
+}
+.num2, .num3
+{
+    margin: 0 10px;
+    height: 30px;
+    text-align: center;
+}
+.addr1
+{
+    margin-left: 85px;
+    height: 30px;
+}
+.postbox
+{
+    margin-left: 5px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #e4e4e6;
+    cursor:pointer;
+}
+.addr2
+{
+    margin-top: 10px;
+    margin-left: 117px;
+    height: 30px;
+}
+.addr3
+{
+    
+    margin-top: 20px;
+    margin-left: 117px;
+    height: 30px;
+}
+
+/* 약관 박스 */
+.sub_header
+{
+    margin-top: 50px;
+}
+.hr2
+{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.s_pointer{
+	cursor:pointer;
+}
+.allagree_box, .a_agree_box, .b_agree_box
+{
+    display: flex;
+    justify-content: space-between;
+}
+.allagree_input, .a_agree_input, .b_agree_input
+{
+    margin-right: 20px;
+    cursor:pointer;
+}
+.hr3
+{
+    border: 1px solid #e4e4e6;
+    margin: 20px 0;
+}
+.agreebox
+{
+    margin-top: 10px;
+}
+.sign_submit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 10px; 
+    margin-bottom: 100px;
+    
+}
+.sign_submit input
+{
+    border: 1px solid #e4e4e6;
+    padding: 5px 20px;
+    background-color: #fec6ca;
+    cursor: pointer;
+}
+.a_as, .b_as
+{
+    margin-left: 5px;
+    color: red;
+}

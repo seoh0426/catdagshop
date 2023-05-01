@@ -1,0 +1,133 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+body
+{
+    background-color: #fffef1;
+}
+.container
+{
+    width: 60%;
+    margin: 0 auto;
+}
+/* 상단 메뉴바 */
+.chat_head 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc7c2;
+    height: 48px;
+}
+.chat_head button
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #ffe1de;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px 15px;
+}
+.chat_sub
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    background-color: #ffe1de;
+}
+.chat_contbox
+{
+    height:300px;
+}
+/* 상대방 채팅 */
+.you
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.y_cht
+{
+    display: inline-block;
+    white-space: pre-line;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: #ffe1de;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+.y_dat
+{
+    font-size: 12px;
+}
+/* 내 채팅 */
+.me
+{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.m_cht
+{
+    display: inline-block;
+    white-space: pre-line;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+.m_dat
+{
+    font-size: 12px;
+}
+
+/* 채팅입력창 */
+.writebox
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+    background-color: #fff;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+form
+{
+    width: 100%;
+}
+.inbox
+{
+    width: 90%;
+    height: 24px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: #e4e4e4e6;
+    border: 1px solid lightgray;
+    font-size: 14px;
+}
+.send
+{
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    background-image: url('../img/chat/send.png');
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center center;
+    cursor: pointer;
+}

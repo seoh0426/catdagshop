@@ -1,0 +1,112 @@
+@charset "UTF-8";
+ *
+        {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            color: black;
+        }
+        body
+        {
+            background-color: #fffef1;
+        }
+        header
+        {
+            height: 100px;
+            background: #fec6ca;
+        }
+        .container
+        {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* nav 시작 */
+        nav
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            height: 100px;
+            font-weight: bold;
+            position: fixed;
+            z-index: 10;
+        }
+        .nav_logo
+        {
+            margin-left: 20px;
+            width: 200px;
+        }
+        .nav_logo img
+        {
+            width: 100%;
+        }
+        .nav_ul
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 50%;
+            white-space: nowrap;
+        }
+        .nav_login
+        {
+            margin-right: 20px;
+            border-radius: 5px;
+            background-color: #ff8fa4;
+            padding: 5px 10px;
+        }
+        .member
+        {
+            position: relative;
+        }
+        .m_ddb
+        {
+            position: absolute;
+            display: none;
+            white-space: nowrap;
+            background-color: #fec6ca;
+            border-radius: 5px;
+            padding: 5px 10px;
+
+        }
+        .m_ddb li
+        {
+            margin-bottom: 10px;
+        }
+        .admin
+        {
+            position: relative;
+        }
+        .a_ddb
+        {
+            position: absolute;
+            display: none;
+            white-space: nowrap;
+            background-color: #fec6ca;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        .a_ddb li
+        {
+            margin-bottom: 10px;
+        }
+        .nav_commu:hover .commu_div, .nav_notice:hover ul, .nav_hospital:hover ul, .nav_shop:hover ul
+        {
+            display: block;
+        }
+        .nav_login:hover .loginbox
+        {
+            color: #bc9044;
+        }
+        .member:hover .m_ddb
+        {
+            display: block;
+        }
+        .admin:hover .a_ddb
+        {
+            display: block;
+        }

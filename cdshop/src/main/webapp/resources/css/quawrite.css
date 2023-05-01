@@ -1,0 +1,326 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: black;
+}
+.body{
+    background-color: #FFFEF0;
+}
+.container{
+    width: 100%;
+    margin:0 auto;
+
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #FFC7C2;
+    font-weight: bold;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+
+
+}
+.nav_logo{
+    margin-left: 20px;
+    width: 230px;
+    width: 130px;
+}
+.nav_logo img{
+    width: 100%;
+}
+.nav_ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    white-space: nowrap;
+}
+.nav_login{
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #FF8EA3;
+    padding: 5px 10px;
+}
+.nav_commu:hover .commu_div, .nav_notice:hover ul, .nav_hospital:hover ul, .nav_shop:hover ul{
+    display: block;
+}
+.nav_login:hover a{
+    color: white;
+}
+
+.bbubbu{
+    margin-top: 50px;
+    background-color: #FFC7C2;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+/*전체크기 분할*/
+.lounge{
+
+    margin: 0 auto;
+    width: 60%;
+}
+.midbox{
+    width: 20%;
+}
+/*세로 카테고리바 시작*/
+.sidecate{
+    display: block;
+    position: fixed;
+    width: 10%;
+    max-width: 15.625rem;
+    background: #FFC7C2;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: 0 5px 10px 0 gray;
+    /*margin-top: 50px;*/
+}
+.sidehea{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidehr{
+    border: 0;
+    background-color: #FFFEF0;
+    height: 1px;
+    width: 90%;
+    margin: 0 auto;
+}
+.listnamebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listtitle{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.catetitle{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.listnamebox{
+    margin-bottom: 5px;
+}
+.listname{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.catelist {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.catelist img{
+    width: 15px;
+    display: none;
+}
+
+.catelist span:hover{
+    color: #FF8EA3;
+    font-weight: 600;
+
+}
+/*midbox 시작*/
+
+.midlounge{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.writebox{
+    padding: 20px;
+    margin-left: 10px;
+}
+.title{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.tltelcss{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(74, 74, 74);
+}
+.hrline{
+    width: 93%;
+    border: 0;
+    background-color: rgb(185, 181, 181);
+    height: 1px;
+    
+}
+#in_title{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titletxt{
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 10px;
+    line-height: 100%;
+    color: rgb(74, 74, 74);
+
+}
+#conoption{
+    background-color: white;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 3px;
+    font: inherit;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    /* padding : 3px; */
+    margin-right: 12px;
+}
+#in_content{
+    margin-top: 10px;
+}
+#utitle{
+    width: 500px;
+    height: 28px;
+    resize: none;
+    font-size: 18px;
+    padding: 1.5px 0 1.5px 6px;   
+    border: 1px solid grey;
+
+}
+textarea:focus {
+    outline: 1.5px solid grey;
+}
+#in_content{
+    margin-left: 5px;
+}
+.contenttxt{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(74, 74, 74);
+}
+#ucontent{
+    width: 90%;
+    height: 500px;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin-bottom: 40px;
+    margin-left: 2px;
+    resize: none;
+}
+.filebox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.filetitle{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    margin-right: 10px;
+}
+.filebox{
+    height: 30px;
+}
+
+.filebox .upload-name {
+    display: inline-block;
+    height: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid rgb(112, 112, 112);
+    width: 50%;
+    color: #999999;
+
+}
+.filebox .upload-name:focus{
+    outline: none;
+}
+.filebox label {
+    display: inline-block;
+    padding: 5px ;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.filebox input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+.pwtxt{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    margin-right: 10px;
+}
+.filebox input[type="password"]{
+    margin-left: 9px;
+    display: inline-block;
+    height: 28px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid rgb(112, 112, 112);
+    width: 20%;
+    color: #999999;
+}
+.filebox input[type="password"]:focus{
+    outline: 1.5px solid grey;
+}
+.bt_se{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+.subutton{
+    margin: 20px;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 20px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 2px 2px 2px 2px rgba(46, 45, 45, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: #FFC7C2;
+    color: rgb(74, 74, 74);
+
+}
+.subutton:hover{
+    background-color: #FF8EA3;
+}

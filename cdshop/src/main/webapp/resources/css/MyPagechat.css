@@ -1,0 +1,157 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+.container
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* 상단 메뉴바 */
+.cart_head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4eded;
+    border-top: 1px solid #e4e4e6;
+    border-bottom: 1px solid #e4e4e6;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding:8px 0;
+}
+.cart_head h1
+{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 마이페이지 메뉴박스 */
+.mypagebox
+{
+    display: flex;
+    margin:50px auto 0px auto;
+}
+.my_left
+{
+    width: 200px;
+    height: 500px;
+    background-color:  #f4eded;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.my_left li
+{
+    padding: 10px;
+}
+.my_left_li1
+{ 
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+.my_left_li1 a
+{    
+    padding: 10px 20px;
+}
+.my_left_li2, .my_left_li3, .my_left_li4, .my_left_li5
+{
+    border-top: 1px solid #fff;
+    display: flex;
+    position: relative;
+}
+.my_left_li5
+{
+    background-color: #ff8fa4;
+    border-bottom: 1px solid #fff;
+}
+.my_left_li5 span, .my_left_li5 i
+{
+    color: #fff;
+}
+.fa-chevron-right
+{
+    position: absolute;
+    right: 8px;
+    color: #535353;
+}
+.my_left a
+{
+    width: 100%;
+}
+.my_left_li2:hover, .my_left_li3:hover, .my_left_li4:hover ,.my_left_li5:hover
+{
+    background-color: #ff8fa4;
+}
+.my_left_li2:hover span,.my_left_li2:hover .fas, .my_left_li3:hover span,.my_left_li3:hover .fas
+, .my_left_li4:hover span,.my_left_li4:hover .fas, .my_left_li5:hover span,.my_left_li5:hover .fas
+{
+    color : white;
+}
+#msb1:checked ~ .my_left_li2, #msb2:checked ~ .my_left_li3
+, #msb3:checked ~ .my_left_li4, #msb4:checked ~ .my_left_li5
+{
+    background-color: #ff8fa4;
+}
+#msb1:checked ~ .my_left_li2 span, #msb1:checked ~ .my_left_li2 .fas
+, #msb2:checked ~ .my_left_li3 span, #msb2:checked ~ .my_left_li3 .fas
+, #msb3:checked ~ .my_left_li4 span, #msb3:checked ~ .my_left_li4 .fas
+, #msb4:checked ~ .my_left_li5 span, #msb4:checked ~ .my_left_li5 .fas
+{
+    color: white;
+}
+.my_left span, .my_left i
+{
+    cursor: pointer;
+}
+
+/* 채팅창 */
+.my_right
+{
+    width: 800px;
+    background-color: #fff;
+    border: 1px solid gray;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 30px;
+}
+.my_right h2
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.mr_sub_box
+{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.mr_sub_box li a
+{
+    display: flex;
+    width: 90%;    
+    border-bottom: 1px solid lightgray;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+}
+.chat_num
+{
+    width: 15%;    
+}
+.chat_cont
+{
+    width: 70%;
+    white-space:pre-line;
+}

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* 초기화 */
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+.container
+{
+    width: 60%;
+    margin: 0 auto;
+}
+/* 상단 메뉴바 */
+.cart_head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4eded;
+    border-top: 1px solid #e4e4e6;
+    border-bottom: 1px solid #e4e4e6;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding:8px 0;
+}
+.cart_head h1
+{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 마이페이지 메뉴박스 */
+.mypagebox
+{
+    display: flex;
+    margin:50px auto 0px auto;
+}
+.my_left
+{
+    width: 200px;
+    height: 500px;
+    background-color:  #f4eded;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.my_left li
+{
+    padding: 10px;
+}
+.my_left_li1
+{ 
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+.my_left_li1 a
+{    
+    padding: 10px 20px;
+}
+.my_left_li2, .my_left_li3, .my_left_li4, .my_left_li5
+{
+    border-top: 1px solid #fff;
+    display: flex;
+    position: relative;
+}
+.my_left_li2
+{
+    background-color: #ff8fa4;
+}
+.my_left_li2 span, .my_left_li2 i
+{
+    color: #fff;
+}
+.my_left_li5{
+    border-bottom: 1px solid #fff;
+}
+.fa-chevron-right
+{
+    position: absolute;
+    right: 8px;
+    color: #535353;
+}
+.my_left a
+{
+    width: 100%;
+}
+.my_left_li2:hover, .my_left_li3:hover, .my_left_li4:hover ,.my_left_li5:hover
+{
+    background-color: #ff8fa4;
+}
+.my_left_li2:hover span,.my_left_li2:hover .fas, .my_left_li3:hover span,.my_left_li3:hover .fas
+, .my_left_li4:hover span,.my_left_li4:hover .fas, .my_left_li5:hover span,.my_left_li5:hover .fas
+{
+    color : white;
+}
+#msb1:checked ~ .my_left_li2, #msb2:checked ~ .my_left_li3
+, #msb3:checked ~ .my_left_li4, #msb4:checked ~ .my_left_li5
+{
+    background-color: #ff8fa4;
+}
+#msb1:checked ~ .my_left_li2 span, #msb1:checked ~ .my_left_li2 .fas
+, #msb2:checked ~ .my_left_li3 span, #msb2:checked ~ .my_left_li3 .fas
+, #msb3:checked ~ .my_left_li4 span, #msb3:checked ~ .my_left_li4 .fas
+, #msb4:checked ~ .my_left_li5 span, #msb4:checked ~ .my_left_li5 .fas
+{
+    color: white;
+}
+.my_left span, .my_left i
+{
+    cursor: pointer;
+}
+
+/* 마이페이지 회원정보 확인  */
+.my_right
+{
+    width: 600px;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 30px;
+    background-color: #fff;
+    border: 1px solid gray;
+    position: relative;
+}
+.my_right h2
+{
+    margin: 30px 0;
+}
+table
+{
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.td_left
+{
+    width: 20%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.inbox1
+{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.inbox2
+{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.inboxnum
+{
+    width: 88px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.inboxpost
+{
+    height: 30px;
+    width: 88px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.postbox
+{
+    margin-left: 5px;
+    height: 30px;
+    padding: 0 5px;
+    background-color: lightgray;
+    border: 1px solid #e4e4e6;
+    cursor: pointer;
+}
+.read
+{
+    background-color: rgb(231, 231, 231);
+    border: 1px solid ;
+}
+.my_inputbox
+{
+    position: absolute;
+    left: 40%;
+    margin-top: 20px;
+}
+.reset
+{
+    
+    padding: 3px 15px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.submit
+{
+    padding: 3px 15px;
+    border: 1px solid lightgray;
+    background-color: #fec6ca;
+    cursor: pointer;
+}
+.reset:hover
+{
+    background-color: #000;
+    color: #fff;
+}
+.submit:hover
+{
+    background-color: #ff8fa4;
+    color: #fff;
+}

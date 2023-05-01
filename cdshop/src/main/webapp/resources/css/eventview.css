@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+.container
+{
+    width: 40%;
+    margin: 0 auto;
+}
+/* 상단 메뉴바 */
+.view_head
+{   
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-color: #fec6ca;
+}
+.view_head h1{
+    margin-right: 20px;
+}
+.view_head :nth-child(2) a{
+    border-bottom: 2px solid red;
+}
+.view_head :nth-child(1) a:hover, .view_head :nth-child(2) a:hover{
+    border-bottom: 2px solid red;
+}
+
+/* 뷰 페이지 시작 */
+.view_tag
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80px;    
+    background-color: #ffe8a3;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;    
+}
+
+/* 제목 */
+.write_head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.write_head h2
+{
+    margin-left: 10px;
+}
+.write_head button
+{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 글 내용 */
+.write_postbox
+{
+    margin-left: 20px;
+}
+.postbox_user
+{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.postbox_user button
+{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+.chat
+{
+    position: absolute;
+    display: none;
+    background-color: #fec6ca;
+    width: 100px;
+    margin-top: 4px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.postbox_img
+{
+    /* width: 700px; */
+    overflow: hidden;    
+    margin-bottom: 30px;
+}
+.postbox_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: 20px;
+}
+.postbox_text
+{
+    white-space: pre-line;
+}
+.recom
+{
+    width: 55px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.fa-thumbs-up
+{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.recom span
+{
+    font-size: 12px;
+}
+
+/* 댓글 시작 */
+.replybox
+{
+    margin-left: 10px;
+    height: 400px;
+}
+.replybox h3
+{
+    margin-bottom: 10px;
+}
+.replybox ul
+{
+    margin-left: 10px;
+}
+.replybox li
+{
+    display: flex;
+    width: 100%;    
+    font-size: 14px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.re_user_id
+{
+    width: 90px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.rechat
+{
+    position: absolute;
+    display: none;
+    width: 100px;
+    background-color: #fec6ca;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+.re_content
+{
+    width: 400px;    
+    white-space: pre-line;
+    margin-right: 10px;
+}
+.re_date
+{
+    width: 130px;
+    margin-right: 10px;
+}
+.re_btn
+{
+    width: 30px;
+    display: flex;
+    align-items: start;
+}
+.re_btn button
+{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.fa-plus-square
+{
+    margin-right: 5px;
+    font-size: 20px;    
+}
+.fa-window-close
+{
+    font-size: 20px;
+}
+.re_user_id:hover .rechat
+{
+    display: block;
+}
+
+/* 댓글 입력창 */
+.reply_input_box textarea
+{
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+.inputbox
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.reply_input_box input
+{
+    border: none;
+    background-color: #ffe8a3;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
