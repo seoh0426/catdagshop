@@ -1,15 +1,20 @@
-# 🛒 spring으로 구현한 반려동물 커뮤니티 쇼핑몰
+# 🐾 Spring으로 구현한 반려동물 커뮤니티 ➕ 쇼핑몰 🛒
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=CATDOG%20COMMUNITY&desc=CATDOG%20Shoppingmall%20page&fontSize=60&descSiza=40&fontAlignY=30&descAlignY=50)
 
 ## :speech_balloon: 프로젝트 소개
-🐱 반려동물 커뮤니티의 쇼핑몰 🐶
+🐱 반려동물 커뮤니티와 쇼핑몰 🐶
 
-📎 개발 기간 : 2023.02.06 ~ 2023.04.06 (약 8주)
+📎 프로젝트 이름 
+ ▶️ CAT&DOG Project
 
-📎 참여 인원 : 2명
+📎 개발 기간 
+ ▶️ 2023.02.06 ~ 2023.04.06 (약 8주)
+
+📎 참여 인원 
+ ▶️ 2명
 
 📎 프로젝트 내용
-* 
+* 반려동물을 키우는 회원들의 일상과 정보를 공유하고 필요한 상품을 구매할 수 있는 커뮤니티와 쇼핑몰이 결합된 사이트를 구현
 
 📎 담당 구현 파트
 * 프로젝트 개발환경 구축, 설계 참여
