@@ -6,7 +6,7 @@
 
 #### 📎 프로젝트 이름 
 
-#####▶️ CAT&DOG Project
+##### ▶️ CAT&DOG Project
 
 📎 개발 기간 
 
