@@ -41,9 +41,9 @@
 * <img src="https://img.shields.io/badge/JSON-30B980?style=flat&logo=json&logoColor=white"/>
 
 📗 사용기술 📗
-* Spring MVC pattern
+* <img src="https://img.shields.io/badge/Spring%20MVC%20pattern-6DB33F?style=flat&logo=Spring&logoColor=white" />
 * <img src="https://img.shields.io/badge/CRUD-68BC71?style=flat&logo=&logoColor=white" />
-* JSP
+* <img src="https://img.shields.io/badge/JSP-FF6A00?style=flat&logo=&logoColor=white" />
 * <img src="https://img.shields.io/badge/카카오%20주소%20API-FFCD00?style=flat&logo=Kakao&logoColor=white" />
-* Ajax
+* <img src="https://img.shields.io/badge/Ajax-FF3366?style=flat&logo=&logoColor=white" />
 
