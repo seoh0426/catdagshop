@@ -44,6 +44,6 @@
 * Spring MVC pattern
 * CRUD
 * JSP
-* <img src="https://img.shields.io/badge/Kakao-#FFCD00?style=flat&logo=카카오주소API&logoColor=white" />
+* <img src="https://img.shields.io/badge/kakao-#FFCD00?style=flat&logo=카카오주소API&logoColor=white" />
 * Ajax
 
