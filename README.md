@@ -42,7 +42,7 @@
 
 📗 사용기술 📗
 * Spring MVC pattern
-* CRUD
+* <img src="https://img.shields.io/badge/CRUD-68BC71?style=flat&logo=&logoColor=white" />
 * JSP
 * <img src="https://img.shields.io/badge/카카오%20주소%20API-FFCD00?style=flat&logo=Kakao&logoColor=white" />
 * Ajax
